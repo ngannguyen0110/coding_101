@@ -1,0 +1,53 @@
+h1 {
+	color: red;
+}
+h2 {
+	color: blue;
+}
+h3 {
+	color: green;
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+p {
+	font-weight: 700; 
+	text-align: center;
+}
+
+#number_1 {
+	color: red;
+}
+
+#number_2 {
+	color: green;
+}
+
+.class_1 {
+	/*border: solid 5px purple; */
+	height: 200px;
+	border-width: 2px 4px 6px 8px;
+	border-top-color: yellowgreen;
+	border-right-color: orange;
+	border-bottom-color: purple;
+	border-left-color: blue;
+	border-style: solid;
+	/*border-radius: 5px; */
+	border-top-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+}
+
+.class_2 {
+	border: solid 5px pink;
+	height: 400px;
+	/*
+	background-image: url("https://sweetmoneybee.com/wp-content/uploads/2022/01/cute-iphone-wallpaper-dont-touch-phone-1.png");
+	background-size: 200px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed; */
+	background: url("https://sweetmoneybee.com/wp-content/uploads/2022/01/cute-iphone-wallpaper-dont-touch-phone-1.png") no-repeat center;
+	background-size: contain;
+	background-attachment: static;
+}
